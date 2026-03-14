@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 2 faculdade</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="dash.css">
 </head>
 
@@ -15,8 +15,8 @@
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Relatórios</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="usuarios.php">Usuários</a></li>
                 <li><a href="#">Configurações</a></li>
             </ul>
             <div class="perfil-usuario">
@@ -30,7 +30,7 @@
                 <article>
                     <h2>Módulo de Usuário</h2>
                     <p>Gerencie os acessos e permissões do sistema nesta área.</p>
-                    <a href="#" class="btn">Acessar</a>
+                    <a href="usuarios.php" class="btn">Acessar</a>
                 </article>
                 <article>
                     <h2>Relatórios de Vendas</h2>
@@ -48,7 +48,7 @@
     </div>
 
     <footer>
-        <p>$copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
+        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
     </footer>
 
 </body>

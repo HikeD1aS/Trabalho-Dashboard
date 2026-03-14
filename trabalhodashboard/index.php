@@ -12,18 +12,7 @@
 
 
     <div class="dashboard-container">
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="usuarios.php">Usuários</a></li>
-                <li><a href="#">Configurações</a></li>
-            </ul>
-            <div class="perfil-usuario">
-                <img src="https://ui-avatars.com/api/?name=Eric+Freitas&background=008080&color=fff" alt="Avatar">
-                <span>Eric Freitas</span>
-            </div>
-        </nav>
+           <?php include 'menu.php';?>
 
         <main>
             <section class="container-cards">
@@ -47,9 +36,7 @@
 
     </div>
 
-    <footer>
-        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
-    </footer>
+        <?php include 'footer.php';?>
 
 </body>
 

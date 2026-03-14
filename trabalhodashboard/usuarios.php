@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
+    <div class="dashboard-container">
+
+    <?php include 'menu.php';?>
+
+
 <main>
     <div class="header-content">
         <h2>Gestão de Usuários</h2>
@@ -33,9 +39,9 @@
                     <td>eric@unifev.edu.br</td>
                     <td>Administrador</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-pen-to-square"></i></button></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-trash"></i></button></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-list"></i></button></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
+                    <button class="btn-icon"><i class="fa-solid fa-list"></i></button></td>
                 </tr>
                 <tr>
                     <td>02</td>
@@ -43,13 +49,17 @@
                     <td>ana.souza@email.com</td>
                     <td>Editor</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-pen-to-square"></i></button></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-trash"></i></button></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-list"></i></button></td>   
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button class="btn-icon"><i class="fa-solid fa-trash"></i></button>
+                    <button class="btn-icon"><i class="fa-solid fa-list"></i></button></td>   
                 </tr>
             </tbody>
         </table>
     </div>
 </main>
+</div>
+
+    <?php include 'footer.php';?>
+
 </body>
 </html>

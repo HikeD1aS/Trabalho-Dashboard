@@ -254,3 +254,10 @@ color:red;
     align-items: center;
     margin-bottom: 20px;
 }
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
